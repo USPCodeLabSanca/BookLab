@@ -7,26 +7,24 @@
 <!-- Descreva brevemente o objetivo do projeto, será a primeira parte lida ao entrar no repositório. -->
 <!-- Links essenciais (como onde o projeto está sendo hospedado se for web) podem ficar aqui também. -->
 ## 🧪 Sobre o Projeto
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel ullamcorper nisi. Pellentesque luctus laoreet blandit. Fusce massa est, fermentum sit amet aliquet ut, viverra ut neque. Suspendisse in justo et nunc lacinia vehicula. Aliquam condimentum eros sit amet nulla auctor, non vestibulum dui volutpat. Donec vestibulum placerat consectetur. Quisque imperdiet faucibus lacus, ut fringilla neque bibendum vitae.
+
 
 <!-- Essa seção pode ser usada para detalhar de forma mais técnica os processos empregados no projeto. -->
 ## ⚙️ Tecnologias Utilizadas
-Lorem ipsum dolor sit amet, consectetur adipiscing elit: 
-- Pellentesque
-- Vel
-- Ullamcorper
 
-Pellentesque luctus laoreet blandit. Fusce massa est, fermentum sit amet aliquet ut, viverra ut neque. Suspendisse in justo et nunc lacinia vehicula. Aliquam condimentum eros sit amet nulla auctor, non vestibulum dui volutpat. Donec vestibulum placerat consectetur. Quisque imperdiet faucibus lacus, ut fringilla neque bibendum vitae.
 
 <!-- Descreva em detalhes como fazer o projeto rodar localmente, incluindo as depedências que devem ser instaladas. -->
 <!-- É interessante utilizar blocos de código nessa seção para mostrar os comandos que devem ser executados. -->
 ## 📝 Como Rodar
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel ullamcorper nisi. Pellentesque luctus laoreet blandit. Fusce massa est, fermentum sit amet aliquet ut, viverra ut neque:
-```javascript
-let lorem = "ipsum"
-let dolor = "sit amet"
-```
-Quisque imperdiet faucibus lacus, ut fringilla neque bibendum vitae.
+
+### Frontend
+
+1. Clone este repostório
+2. Entre na pasta ```\frontend``` pelo terminal  
+3. execute ```npm install``` para baixar as bibliotecas deste repositório.
+4. para rodar o projeto: ```npm run dev```.
+
+### Backend
 
 <!-- Descreva o processo de contribuir para o projeto: issues, pull requests, etc... -->
 <!-- Para projetos maiores, é interessante ter linkado aqui um documento de contribuição com ainda mais detalhes. -->
