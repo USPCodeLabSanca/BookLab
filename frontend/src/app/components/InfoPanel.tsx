@@ -7,7 +7,9 @@ export default function InfoPanel() {
       <div className="absolute bottom-0 left-0 w-10 h-10 bg-amber-800 rounded-tr-lg"></div>
       <div className="absolute bottom-0 right-0 w-10 h-10 bg-amber-800 rounded-tl-lg"></div>
 
-      <p className="text-stone-300 italic">Painel de informações</p> 
+      {/*Componentes do painel de informações*/}
+      <p className="font-petitfleur text-[500%] text-stone-300 italic">P</p>
+      <p className="font-bouwsma text-stone-300 italic">ainel de informacoes</p> 
     </div>
   );
 }
