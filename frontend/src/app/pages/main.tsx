@@ -1,7 +1,7 @@
 
 export default function Main(){
     return(
-        <div>
+        <div className="">
             Essa é a pagina principal
         </div>
     )
