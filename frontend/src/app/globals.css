@@ -10,6 +10,15 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /*Nossas cores*/
+  --color-bege: #E5D8C6;
+  --color-marrom: #2D1C07;
+  --color-dourado: #8E5915;
+
+  /*Nossas fontes*/
+  --font-bouwsma: 'Bouwsma';
+  --font-petitfleur: 'PetitFleur';
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,6 +26,20 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+}
+
+@font-face {
+  font-family: 'Bouwsma';
+  src: url('/fonts/BouwsUnc.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PetitFleur';
+  src: url('/fonts/PetitFleur.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
 }
 
 body {
