@@ -1,10 +1,10 @@
 
 import BookStatusCard from "../components/BookStatusCard"
 import Authors from '../components/Authors';
-import { Author } from '../types';
+import { user } from '../types';
 
 // Exemplos de autores
-const mockAuthors: Author[] = [
+const mockAuthors: user[] = [
     { id: 1, name: 'Hornet', avatarUrl: '/authors/hornet.jpg' },
     { id: 2, name: 'Knight', avatarUrl: '/authors/knight.jpg' },
     { id: 3, name: 'Red Amongus', avatarUrl: '/authors/red_amongus.jpg' },

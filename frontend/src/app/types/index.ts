@@ -1,7 +1,6 @@
 export interface user{
     id: number;
     name: string, 
-    text: string, 
     avatarUrl: string //referência ao link da imagem
 }
 
