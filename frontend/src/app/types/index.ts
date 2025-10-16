@@ -1,6 +1,6 @@
 //exemplo de tipagem (apenas para anotação)
-export default interface tipo{
+export default interface usuario{
     nome: string, 
     text: string, 
-    idade: Number
+    fotoPerfil: string //referência ao link da imagem
 }
