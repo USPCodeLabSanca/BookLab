@@ -1,6 +1,11 @@
-//exemplo de tipagem (apenas para anotação)
-export default interface usuario{
-    nome: string, 
+export interface user{
+    id: number;
+    name: string, 
     text: string, 
-    fotoPerfil: string //referência ao link da imagem
+    avatarUrl: string //referência ao link da imagem
+}
+
+export interface userText{
+    user: user;
+    text: string;
 }

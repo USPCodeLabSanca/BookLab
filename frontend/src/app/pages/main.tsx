@@ -1,16 +1,22 @@
 
 import BookStatusCard from "../components/BookStatusCard"
+import Authors from '../components/Authors';
+import { Author } from '../types';
+
+// Exemplos de autores
+const mockAuthors: Author[] = [
+    { id: 1, name: 'Hornet', avatarUrl: '/authors/hornet.jpg' },
+    { id: 2, name: 'Knight', avatarUrl: '/authors/knight.jpg' },
+    { id: 3, name: 'Red Amongus', avatarUrl: '/authors/red_amongus.jpg' },
+    { id: 4, name: 'Shrek', avatarUrl: '/authors/shrek.jpg' },
+
+];
+
+//Exemplo na main para testar funcionalidade
 export default function Main() {
     return (
-        <div className="min-h-screen flex items-center justify-center p-3 items-center">
-
-
-            {/* Teste do componente BookStatusCard*/}
-            <BookStatusCard
-                timeLeft="1hr 02 min"
-                lettersLeft={10}
-                bookTheme="Idade Média"
-            />
+        <div className="flex flex-col items-center justify-center min-h-screen bg-gray-900 p-4">
+            <Authors authors={mockAuthors} />
         </div>
-    )
+    );
 }
