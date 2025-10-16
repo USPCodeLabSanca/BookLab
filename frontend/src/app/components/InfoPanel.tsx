@@ -22,15 +22,15 @@ function GoldenCorner({x, y}: {x: CornerPosition, y: CornerPosition}) {
 
   /*Componente final*/
   return (
-    <div className={`absolute ${x} ${y} w-15 h-15 bg-amber-800`}>
-      <div className={`absolute ${opposite[x]} ${opposite[y]} w-10 h-10 bg-stone-900 ${roundClass}`}/>
+    <div className={`absolute ${x} ${y} w-15 h-15 bg-dourado`}>
+      <div className={`absolute ${opposite[x]} ${opposite[y]} w-10 h-10 bg-marrom ${roundClass}`}/>
     </div>
   );
 }
 
 export default function InfoPanel() {
   return (
-    <div className="relative flex w-full md:w-80 bg-stone-900 h-full rounded-r-2xl flex-[0.25] items-center justify-center">
+    <div className="relative flex w-full md:w-80 bg-marrom h-full rounded-r-2xl flex-[0.25] items-center justify-center">
       {/*Cantos dourados*/}
       <GoldenCorner x={"top-0"} y={"left-0"}/>
       <GoldenCorner x={"top-0"} y={"right-0"}/>

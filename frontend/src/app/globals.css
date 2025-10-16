@@ -11,6 +11,11 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 
+  /*Nossas cores*/
+  --color-bege: #E5D8C6;
+  --color-marrom: #2D1C07;
+  --color-dourado: #8E5915;
+
   /*Nossas fontes*/
   --font-bouwsma: 'Bouwsma';
   --font-petitfleur: 'PetitFleur';
