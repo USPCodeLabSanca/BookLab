@@ -17,7 +17,7 @@ const mockAuthors: user[] = [
 ];
     
     return (
-        <div className="min-h-screen flex h-screen items-center justify-center p-3">
+        <div className="min-h-screen flex flex-col lg:flex-row h-screen items-center justify-center p-3">
 
             {/* Teste do componente Background*/}
             <Background/>
