@@ -1,23 +1,14 @@
+import { User } from "../types";
 
 interface selectedTextInterface{
     text: string
-    user:{
-        name:string;
-        img:string;
-    }
+    user: User
 }
-
-/*
-    TODO:
-    * Usar a tipagem correta
-    * Usar icone correto
-    * Usar fonte correta
-*/
 
 export default function SelectedText({ text, user }: selectedTextInterface) {
   return (
     // FUNDO ESCURO EXEMPLO
-    <div className="bg-[#3A2D1F] p-8 rounded-lg flex flex-col items-center gap-4 font-serif">
+    <div className=" p-8 rounded-lg flex flex-col items-center gap-4 font-serif">
 
       <h2 className="text-xl text-[#E5D8C6] underline underline-offset-2 self-start">
         Texto selecionado
@@ -32,7 +23,7 @@ export default function SelectedText({ text, user }: selectedTextInterface) {
 
         <div className="flex justify-center mr-10 items-center gap-2 self-end mt-2">
           <img
-            src={user.img} 
+            src={user.avatarUrl} 
             alt={`Avatar de ${user.name}`} 
             className="w-9 h-9 rounded-full object-cover" 
           />

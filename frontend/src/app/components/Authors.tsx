@@ -1,12 +1,12 @@
-import { Author } from '../types';
+import { User } from '../types';
 
 interface AutoresProps {
-    authors: Author[];
+    users: User[];
 }
 
-export default function Authores({ authors }: AutoresProps) {
+export default function Authors({ users }: AutoresProps) {
     return (
-        <div className="bg-[#4A2E0A] p-8 rounded-lg max-w-2xl mx-auto text-white font-sans">
+        <div className="p-8 rounded-lg max-w-2xl mx-auto text-white font-sans">
             <h2 className="text-4xl font-serif font-bold mb-6 text-shadow-sm underline" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.5)' }}>
                 Autores:
             </h2>
@@ -16,14 +16,14 @@ export default function Authores({ authors }: AutoresProps) {
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-6 gap-y-8">
 
                     {/* Mapeia o array de autores para renderizar cada um */}
-                    {authors.map((author) => (
-                        <div key={author.id} className="flex items-center gap-3">
+                    {users.map((user) => (
+                        <div key={user.id} className="flex items-center gap-3">
                             <img
-                                src={author.avatarUrl}
-                                alt={`Avatar de ${author.name}`}
+                                src={user.avatarUrl}
+                                alt={`Avatar de ${user.name}`}
                                 className="w-14 h-14 rounded-full object-cover border-2 border-white"
                             />
-                            <span>{author.name}</span>
+                            <span>{user.name}</span>
                         </div>
                     ))}
                 </div>

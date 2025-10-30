@@ -2,3 +2,5 @@
 # Por exemplo: builds, arquivos temporários e arquivos de ambiente.
 # Existem muitos templates prontos de .gitignore para cada tipo de projeto na internet.
 # Veja mais em: https://git-scm.com/docs/gitignore
+
+*.env
