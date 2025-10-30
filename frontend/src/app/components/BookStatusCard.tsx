@@ -9,10 +9,9 @@ interface BookStatusCardProps {
     bookTheme: string;
 }
 
-
 export default function BookStatusCard({ timeLeft, lettersLeft, bookTheme }: BookStatusCardProps) {
     return (
-        <div className="bg-[#302521] text-white font-sans p-6 rounded-lg max-w-md mx-auto shadow-lg">
+        <div className="text-white font-sans p-6 rounded-lg max-w-md mx-auto shadow-lg">
 
             {/* Tempo Restante */}
             <div className="text-center mb-6">
